@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Important Meta tags - do not edit-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Other HTML -->
+  <title>HelpBit - Viewing: Samantha Zhang</title>
+  <!--Bootstrap 4.0.0 alpha 6 + JQuery - stylesheet and javascript-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/tether.js"></script>
+  <!-- Favicon Crap -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5e47e6">
+  <meta name="apple-mobile-web-app-title" content="HelpBit">
+  <meta name="application-name" content="HelpBit">
+  <meta name="theme-color" content="#5e47e6">
+  <script type="text/javascript">
+    (function (document, navigator, standalone) {
+      // Prevents links in apps from opening in mobile Safari
+      // This javascript must be the first script in your <head>
+      if ((standalone in navigator) && navigator[standalone]) {
+        var curnode, location = document.location, stop = /^(a|html)$/i;
+        document.addEventListener('click', function (e) {
+          curnode = e.target;
+          while (!(stop).test(curnode.nodeName)) {
+            curnode = curnode.parentNode;
+          }
+          // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+          if ('href' in curnode && (curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host))) {
+            e.preventDefault();
+            location.href = curnode.href;
+          }
+        }, false);
+      }
+    })(document, window.navigator, 'standalone');
+  </script>
+</head>
+
+<!-- Favicon Crap -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type=x "image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="favicons/manifest.json">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5e47e6">
+<meta name="apple-mobile-web-app-title" content="HelpBit">
+<meta name="application-name" content="HelpBit">
+<meta name="theme-color" content="#5e47e6">
+<script type="text/javascript">
+  (function (document, navigator, standalone) {
+    // Prevents links in apps from opening in mobile Safari
+    // This javascript must be the first script in your <head>
+    if ((standalone in navigator) && navigator[standalone]) {
+      var curnode, location = document.location, stop = /^(a|html)$/i;
+      document.addEventListener('click', function (e) {
+        curnode = e.target;
+        while (!(stop).test(curnode.nodeName)) {
+          curnode = curnode.parentNode;
+        }
+        // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+        if ('href' in curnode && (curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host))) {
+          e.preventDefault();
+          location.href = curnode.href;
+        }
+      }, false);
+    }
+  })(document, window.navigator, 'standalone');
+</script>
+</head>
+
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-gradient fixed-top">
+    <button class="navbar-toggler navbar-toggler-left" type="button" id="back-button">
+        <img id="back" src="img/back-arrow.png">
+      </button>
+    <div class="brand"><span class="navbar-brand mx-auto">Helper Profile</span></div>
+  </nav>
+
+  <img src="img/profiles/samantha_profile.png" class="profile-banner">
+  <div align="center">
+    <h2 class="profile-name">Samantha Zhang</h2>
+    <h5 class="profile-details">Female, 24 | 10,956</h5>
+    <p><span id="distance" class="badge badge-success">3.2 mi.</span> <img src="img/stars.png" id="stars">
+  </div>
+
+  <hr>
+  <div class="container-fluid">
+    <h5 class="dashboard-section-title">
+      Samantha's Skills
+    </h5>
+    <img class="skill-badge" src="img/badges/violin-int.png">
+    <a href="https://ancient-forest-25990.herokuapp.com/send?number=2013640746&type=VIOLIN&distance=3.2%20miles" class="btn btn-request btn-block">Request Samantha's Help</a>
+  </div>
+  <hr>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    $('#back-button').click(function (e) {
+      window.location.href = "index.html";
+    })
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,400 @@
+/* Boilerplate styling */
+body {
+  max-height: 100%;
+  padding-top: 3rem;
+  position: relative;
+}
+
+#success-msg {
+  background-color: #25bb2f;
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-top: 0.3rem;
+}
+
+.navbar-inverse .navbar-toggler {
+  margin-left: -0.9rem;
+  margin-top: 0.5rem;
+  background: transparent;
+  border-color: transparent !important;
+  }
+
+#toggle {
+  width: 20px !important;
+}
+
+#search {
+  width: 20px !important;
+  margin-right: -0.9rem;
+}
+
+#back {
+  width: 15px !important;
+}
+
+#active {
+  color: #25bb2f;
+  padding-left: 0.25rem;
+}
+
+#busy {
+  color: #F22652;
+  padding-left: 0.15rem;
+}
+
+#away {
+  color: #afafaf;
+  padding-left: 0.25rem;
+}
+
+.btn-request {
+  margin-top: 60px;
+  background-color: #604EE3;
+  color: #fff;
+}
+
+.btn-dismiss {
+  margin-top: 60px;
+  background-color: #fff;
+  color: #25bb2f;
+}
+
+.btn-dismiss:hover {
+  margin-top: 60px;
+  background-color: #fff;
+  color: #25bb2f !important;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-request:hover {
+  background-color: #493baf;
+  color: #fff !important;
+}
+
+.brand {
+  text-align: center;
+  align-items: center;
+}
+
+.dashboard-skill-row {
+  margin-left: -0rem;
+}
+
+.dashboard-section-title {
+  font-size: 10pt;
+  color: #afafaf;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-circle {
+  border-radius: 100%;
+  border-color: transparent !important;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0px 0px 7px #828282;
+  transition: all 0.2s ease;
+}
+
+.btn-circle:hover {
+  height: 80px !important;
+  width: 80px !important;
+}
+
+.helper-icon-1 {
+  background-image: url("../img/alex.png");
+}
+
+.helper-icon-1:hover {
+  background-image: url("../img/alex.png");
+}
+
+.helper-icon-2 {
+  background-image: url("../img/juliana.png");
+}
+
+.helper-icon-2:hover {
+  background-image: url("../img/juliana.png");
+}
+
+.helper-icon-3 {
+  background-image: url("../img/nick.png");
+}
+
+.helper-icon-3:hover {
+  background-image: url("../img/nick.png");
+}
+
+.helper-icon-4 {
+  background-image: url("../img/samantha.png");
+}
+
+.helper-icon-4:hover {
+  background-image: url("../img/samantha.png");
+}
+
+.profile-banner {
+  width: 100%;
+}
+
+.profile-details {
+  color: #afafaf;
+  font-weight: 400;
+}
+
+#stars {
+  width: 100px;
+}
+
+#distance {
+  padding-right: 5px;
+}
+
+.skill-badge {
+  width: 150px;
+}
+
+.skill-icon {
+  width: 45px;
+  margin-left: -0.45rem;
+  margin-top: 0.13rem;
+}
+
+.skill-name {
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.skill-col {
+  padding-top: 2px;
+  padding-left: 10px !important;
+}
+
+.btn-circle:hover {
+  border-radius: 100%;
+  height: 75px;
+}
+
+/* Btn Gradient Variations */
+.gradient-yellow {
+  background: linear-gradient(to bottom right, rgb(237, 201, 37) , #ECAC0A);
+  transition: all 0.2s ease;
+}
+
+.gradient-yellow:hover {
+  background: linear-gradient(to bottom right, rgba(237, 201, 37, 0.75) , rgba(236, 172, 9, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-lava {
+  background: linear-gradient(to bottom right, #F97228 , #F22652);
+  transition: all 0.2s ease;
+}
+
+.gradient-lava:hover {
+  background: linear-gradient(to bottom right, rgba(249, 114, 40, 0.75) , rgba(242, 38, 82, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-cyan {
+  background: linear-gradient(to bottom right, #05DB9C , #0EAB8C);
+  transition: all 0.2s ease;
+}
+
+.gradient-cyan:hover {
+  background: linear-gradient(to bottom right, rgba(5, 219, 156, 0.75) , rgba(14, 171, 140, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-orange {
+  background: linear-gradient(to bottom right, #ff6b00 , #d41e0c);
+  transition: all 0.2s ease;
+}
+
+.gradient-orange:hover {
+  background: linear-gradient(to bottom right, rgba(255, 107, 0, 0.75), rgba(212, 30, 12, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-crimson {
+  background: linear-gradient(to bottom right, #F73A50, #D90C6F);
+  transition: all 0.2s ease;
+}
+
+.gradient-crimson:hover {
+  background: linear-gradient(to bottom right, rgba(247, 58, 80, 0.75), rgba(217, 12, 111, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-mint {
+  background: linear-gradient(to bottom right, #0CC671, #34B835);
+  transition: all 0.2s ease;
+}
+
+.gradient-mint:hover {
+  background: linear-gradient(to bottom right, rgba(12, 198, 113, 0.75), rgba(52, 184, 53, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-violet {
+  background: linear-gradient(to bottom right, #D23DC6, #A100E5);
+  transition: all 0.2s ease;
+}
+
+.gradient-violet:hover {
+  background: linear-gradient(to bottom right, rgba(210, 61, 198, 0.75), rgba(161, 0, 230, 0.75));
+  transition: all 0.2s ease;
+}
+
+.gradient-coal {
+  background: linear-gradient(to bottom right, #1F436B, #013168);
+  transition: all 0.2s ease;
+}
+
+.gradient-coal:hover {
+  background: linear-gradient(to bottom right, rgba(31, 67, 107, 0.75), rgba(1, 49, 105, 0.75));
+  transition: all 0.2s ease;
+}
+
+.bg-gradient {
+  background: #3377E1;
+  background: -webkit-linear-gradient(left, #3377E1 , #604EE3);
+  background: -o-linear-gradient(right, #3377E1, #604EE3);
+  background: -moz-linear-gradient(right, #3377E1, #604EE3);
+  background: linear-gradient(to right, #3377E1 , #604EE3);
+  height: 55px;
+  box-shadow: -1px 0px 5px #000;
+}
+
+.bg-gradient .navbar-brand {
+  font-weight: bold;
+}
+
+
+/* Sidebar */
+  /* Toggle Styles */
+
+  #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+
+  #page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+  }
+
+  /* Sidebar Styles */
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+  }
+
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+  }
+
+  .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+  }
+
+  .sidebar-nav li a:active,
+  .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+  }
+
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+
+  @media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+  }

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Important Meta tags - do not edit-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Other HTML -->
+    <title>HelpBit - Dashboard</title>
+    <!--Bootstrap 4.0.0 alpha 6 + JQuery - stylesheet and javascript-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/tether.js"></script>
+
+    <!-- Favicon Crap -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5e47e6">
+    <meta name="apple-mobile-web-app-title" content="HelpBit">
+    <meta name="application-name" content="HelpBit">
+    <meta name="theme-color" content="#5e47e6">
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from opening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+  </head>
+
+  <body onorientationchange="changeOrientation(event);">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-gradient fixed-top">
+      <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img id="toggle" src="img/menu.png">
+      </button>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img id="search" src="img/search.png">
+      </button>
+      <div class="brand"><span class="navbar-brand mx-auto">HelpBit</span></div>
+      <script type="text/javascript">
+        function changeOrientation(event) {
+            alert("Rotate");
+            event.preventDefault();
+        }
+      </script>
+    </nav>
+
+
+      <div id="wrapper" class="">
+
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                  <li class="sidebar-brand">
+                      <a href="#">
+                          Start Bootstrap
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">Dashboard</a>
+                  </li>
+                  <li>
+                      <a href="#">Shortcuts</a>
+                  </li>
+                  <li>
+                      <a href="#">Overview</a>
+                  </li>
+                  <li>
+                      <a href="#">Events</a>
+                  </li>
+                  <li>
+                      <a href="#">About</a>
+                  </li>
+                  <li>
+                      <a href="#">Services</a>
+                  </li>
+                  <li>
+                      <a href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /#sidebar-wrapper -->
+
+          <!-- Page Content -->
+          <div id="page-content-wrapper">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="dashboard-skill-row">
+                      <h5 class="dashboard-section-title">
+                        Recently Searched
+                      </h5>
+                      <div>
+                        	<div class="row">
+                        		<div class="col-xs-3 skill-col">
+                              <a href="#" class="btn btn-lg btn-circle gradient-yellow"><img class="skill-icon" src="img/Language.png"></a>
+                              <p class="skill-name">Spanish</p>
+                        		</div>
+                        		<div class="col-xs-3 skill-col">
+                              <a href="#" class="btn btn-lg btn-circle gradient-lava"><img class="skill-icon" src="img/Math.png"></a>
+                              <p class="skill-name">Calculus</p>
+                        		</div>
+                        		<div class="col-xs-3 skill-col">
+                              <a href="#" class="btn btn-lg btn-circle gradient-cyan"><img class="skill-icon" src="img/Smartphone.png"></a>
+                              <p class="skill-name">iPhone</p>
+                        		</div>
+                        		<div class="col-xs-3 skill-col">
+                              <a href="#" class="btn btn-lg btn-circle gradient-orange"><img class="skill-icon" src="img/Basketball.png"></a>
+                              <p class="skill-name">Basketball</p>
+                        		</div>
+
+                        	</div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="dashboard-skill-row">
+                        <h5 class="dashboard-section-title">
+                          Nearby
+                        </h5>
+                        <div class="row">
+                          <div class="col-xs-3 skill-col">
+                            <a href="#" class="btn btn-lg btn-circle gradient-crimson"><img class="skill-icon" src="img/computer.png"></a>
+                            <p class="skill-name">Computer</p>
+                          </div>
+                          <div class="col-xs-3 skill-col">
+                            <a href="#" class="btn btn-lg btn-circle gradient-mint"><img class="skill-icon" src="img/Palace.png"></a>
+                            <p class="skill-name">History</p>
+                          </div>
+                          <div class="col-xs-3 skill-col">
+                            <a href="#" class="btn btn-lg btn-circle gradient-violet"><img class="skill-icon" src="img/Violin.png"></a>
+                            <p class="skill-name">Violin</p>
+                          </div>
+                          <div class="col-xs-3 skill-col">
+                            <a href="#" class="btn btn-lg btn-circle gradient-coal"><img class="skill-icon" src="img/speaker.png"></a>
+                            <p class="skill-name">Presenting</p>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <hr>
+                      <div class="dashboard-skill-row">
+                          <h5 class="dashboard-section-title">
+                            Your Recent Helpers
+                          </h5>
+                          <div class="row">
+                            <div class="col-xs-3 skill-col">
+                              <a href="profile-alex.html" class="btn btn-lg btn-circle helper-icon-1"></a>
+                              <p class="skill-name">Alex <i id="active" class="fa fa-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="col-xs-3 skill-col">
+                              <a href="profile-juliana.html" class="btn btn-lg btn-circle helper-icon-2"></a>
+                              <p class="skill-name">Juliana <i id="active" class="fa fa-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="col-xs-3 skill-col">
+                              <a href="profile-nick.html" class="btn btn-lg btn-circle helper-icon-3"></a>
+                              <p class="skill-name">Nick <i id="busy" class="fa fa-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="col-xs-3 skill-col">
+                              <a href="profile-samantha.html" class="btn btn-lg btn-circle helper-icon-4"></a>
+                              <p class="skill-name">Samantha <i id="away" class="fa fa-circle" aria-hidden="true"></i></span></p>
+                            </div>
+
+                          </div>
+
+                        </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- /#page-content-wrapper -->
+
+      </div>
+      <!-- /#wrapper -->
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- Menu Toggle Script -->
+      <script>
+      $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+      </script>
+
+  </body>
+</html>
